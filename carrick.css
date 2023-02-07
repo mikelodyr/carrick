@@ -1,0 +1,247 @@
+body{
+    margin: auto;
+    background-color: #E4E4E4;
+}
+
+h1 {
+    text-align: center;
+    background-color: #070090;
+    padding: 0.25em;
+    margin-bottom: 0;
+    border-top: 1px solid #030044;
+    border-left: 1px solid #030044;
+    border-right: 1px solid #030044;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #030044;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    border-bottom: 1px dashed black;
+    padding: 0.25em;
+    font-size: 1.5em;
+    color: #030044;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.about-carrick {
+    padding: 1em 2em;
+    color: #FFFFFB;
+    font-size: 1.75em;
+    background-color: #05B2DC;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    animation: fadeAndScale 2s cubic-bezier(.39,-1.05,.58,1.95);
+    animation-delay: -0.2s;
+    transform-origin: center bottom;
+}
+
+.video1 {
+    justify-content: center;
+    display: flex;
+}
+
+.food {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2em;
+    background-color: #05B2DC;
+    color: #E4E4E4;
+    margin-top: 2em;
+}
+
+
+td {
+    font-size: 1.75em;
+    padding: 1em;
+    border-left: 1px solid #030044;
+    border-right: 1px solid #030044;
+    text-align: center;
+}
+
+td a {
+    text-decoration: none;
+    color: #E4E4E4;
+}
+
+td a:hover {
+    color: #030044;
+    text-decoration: underline;
+}
+
+td a:visited {
+    color: #E4E4E4;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #05B2DC;
+    border-bottom: 1px solid #030044;
+    border-left: 1px solid #030044;
+    border-right: 1px solid #030044;
+    display: flex;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #FFFFFB;
+    font-style: bold;
+    display: block;
+    padding: 0.75em 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navigation a:hover {
+    background-color: #087CA7;
+}
+
+.box {
+    animation: imageFade 2s;
+    display: flex;
+}
+
+
+@keyframes fadeAndScale {
+    0% {
+        opacity: 0;
+        transform: scale3d(.5,.5,1);
+    }
+
+    70% {
+        opacity: 0;
+        transform: scale3d(.75,.75,1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale3d(1,1,1);
+    }
+}
+
+@keyframes imageFade {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.carrick-logo {
+    animation: fadeAndScale 1s cubic-bezier(.39,-1.05,.58,1.95);
+    animation-delay: -0.2s;
+    transform-origin: center bottom;
+}
+
+form {
+    padding: 2em;
+}
+
+.wrapper2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.map {
+    grid-column: 1;
+}
+
+.contact-form {
+    grid-column: 1;
+}
+
+.eventsinfo {
+    font-size: 1.25em;
+    padding: 0.25em;
+    color: #030044;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.blueway {
+    transition: box-shadow 0.5s ease-in-out, width 0.5s ease-in;
+}
+
+.blueway:hover {
+    transition: box-shadow 0.5s ease-in-out, width 0.5s ease-in;
+    box-shadow: 10px 10px 5px #030044;
+    width: 850px;
+}
+
+.castle{
+    transition: box-shadow 0.5s ease-in-out, width 0.5s ease-in;
+}
+
+.castle:hover {
+    box-shadow: 10px 10px 5px #030044;
+    transition: box-shadow 0.5s ease-in-out, width 0.5s ease-in;
+    width: 850px;
+}
+
+.golf {
+    transition: box-shadow 0.5s ease-in-out, width 0.5s ease-in;
+}
+
+.golf:hover {
+    box-shadow: 10px 10px 5px #030044;
+    transition: box-shadow 0.5s ease-in-out, width 0.5s ease-in;
+    width: 650px;
+}
+
+.tennis {
+    transition: box-shadow 0.5s ease-in-out, width 0.5s ease-in;
+}
+
+.tennis:hover {
+    box-shadow: 10px 10px 5px #030044;
+    transition: box-shadow 0.5s ease-in-out, width 0.5s ease-in;
+    width: 750px;
+}
+
+.theatre {
+    transition: box-shadow 0.5s ease-in-out, width 0.5s ease-in;
+}
+
+.theatre:hover {
+    box-shadow: 10px 10px 5px #030044;
+    transition: box-shadow 0.5s ease-in-out, width 0.5s ease-in;
+    width: 750px;
+}
+
+.clancy-brothers {
+    transition: box-shadow 0.5s ease-in-out, width 0.5s ease-in;
+}
+
+.clancy-brothers:hover {
+    box-shadow: 10px 10px 5px #030044;
+    transition: box-shadow 0.5s ease-in-out, width 0.5s ease-in;
+    width: 750px;
+}
+
+section {
+    display: grid;
+}
+
+.amenity1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.amenity2 {
+    grid-column: 2;
+    grid-row: 1;
+}
